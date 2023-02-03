@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.body {
+    color: #555;
+    font-family: open sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+
+}
+.left-container{
+    height: 100vh;
+    background-image: linear-gradient(#0277BD, #03a9f4);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.right-container{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+
+.header{
+    font-weight: 22px;
+    font-size: 36px;
+}
+
+.sub-text{
+    font-size:22px;
+    font-weight:400;
+}
+
+.month-container{
+    padding-top: 25%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.calc-container{
+        padding-top: 12%;
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+.fs_white{
+    color: #ffff;
+}
+
+.fs-dark-grey{
+    color: #4e4e4e;
+}
+
+.budget-container {
+    display: inline-block;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0, 6px, 4px, #000;
+}
+.month-amount{
+    font-size:36px;
+    font-weight:700;
+
+}
+
+.bottom-border{
+    border-bottom: 1px solid #00446d;
+    
+}
+.expense-row {
+    padding: 10px;
+    
+
+}
+
+
